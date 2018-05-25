@@ -2,12 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifrado Cesar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
+    <h1>Cifrado César</h1>
+    <div id="cifrar1"></div>
+    Ingresa tu mensaje: <br>
+      <input type="text" id="mensaje" placeholder="Solo texto sin números">
+      <br>
+      Desplazamiento: <input id="desplazar" value="3">
+      <button id="boton" onclick="cifrar()">Cifrar</button>
+      <button id="boton">Descifrar</button>
+      <br>
+    Mensaje descifrado: <br>
+      <input type="text" name="texto cifrado" id="salida">  
+    
+      <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
