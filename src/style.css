@@ -1,0 +1,14 @@
+head { color:blueviolet}
+body { color: brown}
+body {background-color: burlywood}
+h1 {align-self: auto; 
+    font-size: 60px;
+    color: rgba(58, 28, 0, 0.904);
+    font-family: 'Pacifico', cursive;
+    padding: 0%;
+ }
+
+ p {font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    padding: 0;
+}

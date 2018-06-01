@@ -3,29 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Cifrado Cesar</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Pacifico|Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <center>
     <h1>Cifrado César</h1>
     
-    Ingresa tu mensaje: <br>
+    <p>tu mensaje:</p>
       <textarea id="string" cols="50" rows="5" placeholder="Solo texto sin números"></textarea></textarea>
       <br>
     
-    Desplazamiento: 
+    <p>Desplazamiento:</p> 
       <input id="saltos">
 
     <!--Botones-->
-      <button id="boton1">Cifrar</button>
+      <button id="boton1">Cifrar</button> o 
       <button id="boton2">Descifrar</button>
       <br>
 
-    Mensaje descifrado: <br>
+    <p>Mensaje descifrado:</p> <br>
       <input type="text" id="output">  
     
     </center>
     <!--<script src="cipher.js"></script>-->
     <script src="index.js"></script>
+    
   </body>
 </html>
