@@ -34,7 +34,7 @@ decode = (offset,string) => {
   let output = "";
   const clave = parseInt(offset);
     for(i=0;i<string.length;i++){
-  let formula = (string.charCodeAt(i)-65-clave) % 26 + 65;
+  let formula = (string.charCodeAt(i) - 90 - clave) % 26 + 90;
     output += String.fromCharCode(formula);
   } return output;
 }
