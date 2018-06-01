@@ -3,6 +3,25 @@
 ## Preámbulo
 
 
+## Principales usuarios del producto:
+
+La aplicación fue desarrollada para el cliente según las siguientes especificaciones:
+
+- Poder cifrar mensajes para poderlos enviar a un chat grupal.
+
+- Descifrar los mensajes cifrados que recibimos en el chat grupal.
+
+El usuario podrá compartir el [link de la aplicación](https://kalugn.github.io/lim-2018-05-bc-core-am-cipher/src/) y definir una clave (número de saltos) para los dos procesos (cifrar y descifrar).
+
+## Cuáles son los objetivos de estos usuarios en relación con el producto
+
+El objetivo principal de los usuarios es:
+
+- Poder comunicarse por chat a través de mensajes cifrados.
+
+## Resolución de problema
+
+
 
 ## Introducción
 
