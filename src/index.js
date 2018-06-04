@@ -2,9 +2,6 @@
 const numero = document.getElementById("saltos");
 //const textoMayu = texto.toUpperCase("string");
 const texto = document.getElementById("string");
-const boton1 = document.getElementById("boton1");
-const boton2 = document.getElementById("boton2");
-const output = document.getElementById("output");   
 
 /*/función a mayus
 textog = () => {
@@ -21,10 +18,10 @@ encode = (offset,string) => {
     output += String.fromCharCode(formula);
   } return output;
 } */
-
-   btnCifrar.addEventListener("click"), () => {
-    window.cipher.encode(texto.value,numero.value)=boton1;
-   },
+ let botonCifrar = document.getElementById("boton1");
+   botonCifrar.addEventListener("click",() => {
+    document.getElementById("output").value=window.cipher.encode(texto.value,numero.value);
+   })
 
 /*función de descifrado
 decode = (offset,string) => {
@@ -36,6 +33,7 @@ decode = (offset,string) => {
   } return output;
 }*/
 
-   btnCifrar2.addEventListener("click"), () => {
-    window.cipher.decode(texto.value,numero.value)=boton2;
-   }
+let botonDescifrar = document.getElementById("boton2");
+botonDescifrar.addEventListener("click",() => {
+ document.getElementById("output").value=window.cipher.decode(texto.value,numero.value);
+})

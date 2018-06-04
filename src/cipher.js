@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (output,clave) => {
+  encode: (string,offset) => {
     let output = "";
     const clave = parseInt(offset);
       for (let i=0; i<string.length; i++){
@@ -8,7 +8,7 @@ window.cipher = {
     } return output;
   },
 
-  decode: (output, clave) => {
+  decode: (string,offset) => {
     let output = "";
     const clave = parseInt(offset);
       for( let i=0;i<string.length;i++){
