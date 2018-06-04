@@ -41,10 +41,10 @@ Por ejemplo si usáramos un desplazamiento de 2:
 * Elegir un número que indique cuántas posiciones queremos que el cifrado
   desplace cada caracter.
 * Click en la opción de cifrar.
-* ver el resultado del mensaje cifrado
+* ver el resultado del mensaje cifrado.
 
-### Para el cifrado:
+### Para el descifrado:
 * Ingresar el mensaje (texto) cifrado a descifrar.
-* Elegir el número que indique con cuántas posiciones se ralizó el cifrado.
+* Elegir el número que indique con cuántas posiciones se realizó el cifrado.
 * Click en la opción de descifrar.
 * Ver el resultado del mensaje descifrado.
