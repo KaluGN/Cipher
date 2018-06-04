@@ -12,7 +12,7 @@ textog = () => {
  document.getElementById("string").value = textog;
 }*/
 
-//funcion de cifrado
+/*/funcion de cifrado
 encode = (offset,string) => {
   let output = "";
   const clave = parseInt(offset);
@@ -20,28 +20,22 @@ encode = (offset,string) => {
   let formula = (string.charCodeAt(i) - 65 + clave) % 26 + 65;
     output += String.fromCharCode(formula);
   } return output;
-}
+} */
 
-  const btnCifrar = () => {
-    //console.log('hola');
-    //console.log(encode(numero.value,texto.value));
-    output.value = encode(numero.value,texto.value);
-  }
-  boton1.addEventListener("click", btnCifrar);
+   btnCifrar.addEventListener("click", () => {
+     window.cipher.encode(texto.value,numero.value)=boton1;
+   }
 
-//función de descifrado
+/*función de descifrado
 decode = (offset,string) => {
   let output = "";
   const clave = parseInt(offset);
-    for(i=0;i<string.length;i++){
+    for(let i=0;i<string.length;i++){
   let formula = (string.charCodeAt(i) - 90 - clave) % 26 + 90;
     output += String.fromCharCode(formula);
   } return output;
+}*/
+
+   btnCifrar2.addEventListener("click", () => {
+    window.cipher.decode(texto.value,numero.value)=boton1;
 }
- 
-  const btnCifrar2 = () => {
-  //console.log('chau');
-  //console.log(decode(numero.value,texto.value));
-  output.value = decode(numero.value,texto.value);
-  } 
-  boton2.addEventListener("click", btnCifrar2);
