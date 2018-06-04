@@ -22,9 +22,9 @@ encode = (offset,string) => {
   } return output;
 } */
 
-   btnCifrar.addEventListener("click", () => {
-     window.cipher.encode(texto.value,numero.value)=boton1;
-   }
+   btnCifrar.addEventListener("click"), () => {
+    window.cipher.encode(texto.value,numero.value)=boton1;
+   },
 
 /*función de descifrado
 decode = (offset,string) => {
@@ -36,6 +36,6 @@ decode = (offset,string) => {
   } return output;
 }*/
 
-   btnCifrar2.addEventListener("click", () => {
-    window.cipher.decode(texto.value,numero.value)=boton1;
-}
+   btnCifrar2.addEventListener("click"), () => {
+    window.cipher.decode(texto.value,numero.value)=boton2;
+   }
